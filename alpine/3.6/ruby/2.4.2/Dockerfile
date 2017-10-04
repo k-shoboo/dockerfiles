@@ -1,5 +1,7 @@
 FROM alpine:3.6
 
+# docker_sample commit test
+
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
 	&& { \
