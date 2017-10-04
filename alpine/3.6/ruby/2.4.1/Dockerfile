@@ -1,5 +1,7 @@
 FROM alpine:3.6
 
+# automated test comment
+
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
   && { \
